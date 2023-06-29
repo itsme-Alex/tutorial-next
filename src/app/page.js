@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+import styles from '../styles/page.module.scss'
+import variables from '../styles/variables.module.scss'
 
 export default function Home() {
   return (
@@ -46,7 +47,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>
+          <h2 style={{color: variables.primaryColor}}>
             Docs <span>-&gt;</span>
           </h2>
           <p>Find in-depth information about Next.js features and API.</p>
@@ -73,7 +74,7 @@ export default function Home() {
           <h2>
             Templates <span>-&gt;</span>
           </h2>
-          <p>Explore the Next.js 13 playground.</p>
+          <p>Explore the Next.js 13 playground. hello</p>
         </a>
 
         <a

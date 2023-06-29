@@ -1,0 +1,42 @@
+/*
+background blanc*/
+.page {
+  padding: 20px;
+  height: auto;
+  width: 100%;
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); // 3 colonnes égales
+  grid-gap: 10px; // Espacement entre les éléments
+}
+
+.gridItem {
+  /* Styles pour chaque élément de la grille */
+}
+
+.page {
+  /* Styles pour la page */
+}
+
+.pageHeader {
+  /* Styles pour l'en-tête de la page */
+}
+
+.mainContainer {
+
+}
+
+
+
+
+
+

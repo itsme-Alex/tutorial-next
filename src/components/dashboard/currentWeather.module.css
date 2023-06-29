@@ -1,0 +1,23 @@
+.currentWeather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 25px;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+}
+
+.icon {
+    width: 300px;
+    height: 300px;
+}
+
+.city {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.temp {
+    font-size: 30px;
+}
